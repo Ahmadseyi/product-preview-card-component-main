@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: burlywood;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Fraunces", serif "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.perfume {
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+}
+.content {
+  background-color: yellow;
+  padding: 20px;
+  margin-top: -5px;
+  /* border-bottom-left-radius: 15px; */
+  /* border-bottom-right-radius: 15px; */
+}
+.cart {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  color: white;
+  border: none;
+  padding: 15px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  display: block;
+  width: 215px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+  width: 100%;
+  margin-top: 10px;
+}
+.money {
+  /* display: flex;
+  align-items: baseline;
+  text-align: left;
+  justify-content: left; */
+}
+.main-amount {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: hsl(158, 36%, 37%);
+}
+.sub-amount {
+  /* font-size: 15px; */
+}
+.rapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background-color: burlywood;
+  }
+  .perfume {
+    width: 600px;
+    display: flex;
+  }
+  .image {
+    width: 50%;
+  }
+  .content {
+    width: 50%;
+    margin: auto;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 15px;
+  }
+  .rapper img {
+    display: none;
+  }
+  .rapper {
+    background-image: url("images/ginger\ up1.jpg");
+    height: 438px;
+    /* border: solid; */
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
