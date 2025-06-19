@@ -13,8 +13,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }
-h1, .qty {
-    font-family: "Fraunces", serif;
+h1,
+.qty {
+  font-family: "Fraunces", serif;
 }
 .perfume {
   width: 90%;
@@ -99,7 +100,7 @@ h1, .qty {
   }
   .rapper {
     background-image: url("images/ginger\ up1.jpg");
-    height: 438px;
+    height: 479px;
     /* border: solid; */
     width: 300px;
     background-position: center;
